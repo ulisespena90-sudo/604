@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fc;
+    color: #2d3748;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    color: white;
+    text-align: center;
+    padding: 4.5rem 1rem 3.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    font-size: 3.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    font-size: 1.35rem;
+    opacity: 0.92;
+    font-weight: 300;
+}
+
+.container{
+    max-width: 800px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+}
+
+section{
+    background-color: grey;
+    border-radius: 12px;
+    padding: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+section:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+ul li{
+    background-color: #f1f5f9;
+    padding: 1rem 1.8rem;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid #e2ef8e;
+}
+
+ul a{
+    text-decoration: none;
+    color: #F54927;
+    display: block;
+}
+
+ul li:hover{
+    background: #471306;
+    color: white;
+}
+
+section p{
+    font-size: 1.5rem;
+    color: #B1E3D4;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    background-color: #333;
+    color: #f1f5f9;
+}
+
+footer p{
+   font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
